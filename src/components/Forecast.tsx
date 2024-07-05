@@ -38,7 +38,7 @@ const Forecast = ({ data }: Props) => {
         {isCelsius ? 'C' : 'F'}
       </button>
 
-    < div className="w-full flex flex-col justify-center align-middle sm:max-w-[600px] sm:px-6 md:max-w-[720px] py-4 md:py-4 md:px-10 lg:px-20 lg:h-full mt-[10vh] bg-gray-400 rounded-md 
+    < div className="w-full flex flex-col justify-center align-middle sm:max-w-[600px] sm:px-6 md:max-w-[720px] py-4 md:py-4 md:px-10 lg:px-20 lg:h-full bg-gray-400 rounded-md 
     bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 cursor-default min-[320px]:p-10">
     <div className='flex flex-row w-full'>  
     <h1 className='text-lg font-semibold p-2 w-full'>Current Weather</h1>

@@ -30,7 +30,7 @@ const CurrentWeather: React.FC<Props> = ({ forecast, isCelsius }) => {
             <Degree temp={Math.round(today ? today.main.temp : 0)} deg={isCelsius} />
           </h1>
         </div>
-        <div className="md:w-[160px] md:ml-3 ">
+        <div className="md:w-[160px] ml-3 ">
           <h2 className="md:text-lg text-base">
             {today
               ? today.weather[0].description.charAt(0).toUpperCase() +
