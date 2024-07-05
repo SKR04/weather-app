@@ -50,7 +50,7 @@ const Forecast = ({ data }: Props) => {
         <CurrentWeather forecast={forecast ? forecast : data} isCelsius={isCelsius}/>
 
 
-        <section className="flex flex-wrap justify-between text-base text-zinc-700 mt-5 min-[320px]:min-[320px]:justify-evenly">
+        <section className="flex flex-wrap md:justify-between text-base text-zinc-700 mt-5 min-[320px]:min-[320px]:justify-evenly">
           
           <Tile
             icon="wind"
