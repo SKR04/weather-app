@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import { optionType, forecastType, DropdownOptionType } from '../types/index';
 import { defaultCity } from '../constants';
 
-const BASE_URL = 'http://api.openweathermap.org';
+const BASE_URL = 'https://api.openweathermap.org';
 
 const useForecast = () => {
   const [city, setCity] = useState<optionType | null>(defaultCity);
