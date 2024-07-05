@@ -28,3 +28,29 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+# Weather App
+
+This project is built with TypeScript, React, Vite, and Tailwind CSS.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repo and cd to the repo
+2. ```npm install ```
+3. Create .env file and update your API KEY from [click here](https://openweathermap.org/). Example provided in .env.example
+4. ```npm run dev```
+
+## Live Demo ⚡
+
+Demo of this application is hosted on vercel [here](https://weather-app-git-main-rajas-projects-80d11ff1.vercel.app/)
+
