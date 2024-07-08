@@ -58,7 +58,7 @@ const Forecast = ({ data }: Props) => {
             info={`${Math.round(today.wind.speed)} km/h ${getWindDirection(
               Math.round(today.wind.deg)
             )}`}
-            description={`gusts ${today.wind.gust.toFixed(1)} km/h`}
+            description={`Gusts ${today.wind.gust.toFixed(1)} km/h`}
           />
           <Tile
             icon="humidity"
